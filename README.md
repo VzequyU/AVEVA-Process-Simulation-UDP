@@ -13,6 +13,7 @@
 </p>
 
 <p align="center">
+  <a href="https://youtu.be/r88qSzDYIMg">📺 Vídeo tutorial</a> •
   <a href="#visao-geral">🎯 Visão geral</a> •
   <a href="#versoes">🧩 Versões</a> •
   <a href="#inicio-rapido">🚀 Início rápido</a> •
@@ -154,6 +155,17 @@ número de avaliações do resíduo no passo. Formato completo em
 |---|---|
 | Fora de linha (resolvedor falso) | Todas as amostras coincidem com os valores convergidos (1e-12); 0 perdidas; ~75 000–85 000 amostras/s |
 | No AVEVA | ping de 0,12 ms; 20 s simulados → 200 amostras (passo de 0,1 s) sem lacunas; comando confirmado na fronteira do passo |
+
+---
+
+<a name="video"></a>
+
+## 📺 Vídeo tutorial
+
+🎬 **[Assistir ao tutorial de instalação no YouTube](https://youtu.be/r88qSzDYIMg)** (em português).
+O vídeo mostra a instalação da versão original (`v1_udp/`); para a v2, os passos de compilação e
+instalação da DLL são os mesmos, mudando apenas a pasta (`v2_tcp/`) e o cliente Python
+(`v2_tcp/python/aveva_bridge_v2.py`).
 
 ---
 
